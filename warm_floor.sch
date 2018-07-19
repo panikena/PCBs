@@ -96,18 +96,18 @@
 <text x="-2.54" y="1.651" size="0.8128" layer="21">&gt;NAME</text>
 </package>
 <package name="NA01/02-T2SXX">
-<wire x1="-0.19" y1="-0.3" x2="-0.19" y2="12.7" width="0.127" layer="21"/>
-<wire x1="-0.19" y1="12.7" x2="25.81" y2="12.7" width="0.127" layer="21"/>
-<wire x1="25.81" y1="12.7" x2="25.81" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="25.81" y1="-0.3" x2="-0.19" y2="-0.3" width="0.127" layer="21"/>
-<pad name="L" x="1.81" y="1.6492" drill="0.6" diameter="1.27" rot="R90"/>
-<pad name="N" x="6.75" y="1.64" drill="0.6" diameter="1.27" rot="R90"/>
-<pad name="V+" x="23.81" y="1.7" drill="0.6" rot="R90"/>
-<pad name="V-" x="20.81" y="1.7" drill="0.6" rot="R90"/>
-<text x="1.27" y="3.81" size="1.27" layer="21">L</text>
-<text x="6.35" y="3.81" size="1.27" layer="21">N</text>
-<text x="20.32" y="3.81" size="1.27" layer="21">V-</text>
-<text x="22.86" y="3.81" size="1.27" layer="21">V+</text>
+<wire x1="-12.89" y1="-6.65" x2="-12.89" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-12.89" y1="6.35" x2="13.11" y2="6.35" width="0.127" layer="21"/>
+<wire x1="13.11" y1="6.35" x2="13.11" y2="-6.65" width="0.127" layer="21"/>
+<wire x1="13.11" y1="-6.65" x2="-12.89" y2="-6.65" width="0.127" layer="21"/>
+<pad name="L" x="-10.89" y="-4.7008" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="N" x="-5.95" y="-4.71" drill="0.6" diameter="1.27" rot="R90"/>
+<pad name="V+" x="11.11" y="-4.65" drill="0.6" diameter="1.4224" rot="R90"/>
+<pad name="V-" x="8.11" y="-4.65" drill="0.6" diameter="1.4224" rot="R90"/>
+<text x="-11.43" y="-2.54" size="1.27" layer="21">L</text>
+<text x="-6.35" y="-2.54" size="1.27" layer="21">N</text>
+<text x="7.62" y="-2.54" size="1.27" layer="21">V-</text>
+<text x="10.16" y="-2.54" size="1.27" layer="21">V+</text>
 </package>
 </packages>
 <symbols>
@@ -17015,124 +17015,6 @@ Wickmann</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="relay" urn="urn:adsk.eagle:library:339">
-<description>&lt;b&gt;Relays&lt;/b&gt;&lt;p&gt;
-&lt;ul&gt;
-&lt;li&gt;Eichhoff
-&lt;li&gt;Finder
-&lt;li&gt;Fujitsu
-&lt;li&gt;HAMLIN
-&lt;li&gt;OMRON
-&lt;li&gt;Matsushita
-&lt;li&gt;NAiS
-&lt;li&gt;Siemens
-&lt;li&gt;Schrack
-&lt;/ul&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="G2R" urn="urn:adsk.eagle:footprint:23988/1" library_version="1">
-<description>&lt;b&gt;RELAY&lt;/b&gt;&lt;p&gt;
-1 x switch, Omron</description>
-<wire x1="-4.699" y1="-6.604" x2="24.384" y2="-6.604" width="0.1524" layer="21"/>
-<wire x1="24.384" y1="6.477" x2="24.384" y2="-6.604" width="0.1524" layer="21"/>
-<wire x1="24.384" y1="6.477" x2="-4.699" y2="6.477" width="0.1524" layer="21"/>
-<wire x1="-4.699" y1="-6.604" x2="-4.699" y2="6.477" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="2.0574" x2="-2.54" y2="1.1938" width="0.1524" layer="21"/>
-<wire x1="-0.6604" y1="1.1938" x2="-0.6604" y2="-1.3208" width="0.254" layer="21"/>
-<wire x1="-4.4196" y1="-1.3208" x2="-4.4196" y2="1.1938" width="0.254" layer="21"/>
-<wire x1="-4.4196" y1="1.1938" x2="-2.54" y2="1.1938" width="0.254" layer="21"/>
-<wire x1="-2.54" y1="1.1938" x2="-1.2954" y2="1.1938" width="0.254" layer="21"/>
-<wire x1="-3.7846" y1="-1.3208" x2="-4.4196" y2="-1.3208" width="0.254" layer="21"/>
-<wire x1="-1.2954" y1="1.1938" x2="-3.7846" y2="-1.3208" width="0.1524" layer="21"/>
-<wire x1="-1.2954" y1="1.1938" x2="-0.6604" y2="1.1938" width="0.254" layer="21"/>
-<wire x1="-0.6604" y1="-1.3208" x2="-2.54" y2="-1.3208" width="0.254" layer="21"/>
-<wire x1="-2.54" y1="-1.3208" x2="-2.54" y2="-1.9304" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-1.3208" x2="-3.7846" y2="-1.3208" width="0.254" layer="21"/>
-<wire x1="16.256" y1="-0.508" x2="16.5862" y2="-0.1778" width="0.254" layer="21"/>
-<wire x1="16.5862" y1="-0.1778" x2="13.97" y2="-0.1778" width="0.1524" layer="21"/>
-<wire x1="16.5862" y1="-0.1778" x2="17.526" y2="0.762" width="0.254" layer="21"/>
-<wire x1="13.97" y1="-0.1778" x2="13.97" y2="-1.8288" width="0.1524" layer="21"/>
-<wire x1="18.4912" y1="-0.1778" x2="20.955" y2="-0.1778" width="0.1524" layer="21"/>
-<wire x1="20.955" y1="-0.1778" x2="20.955" y2="-1.8288" width="0.1524" layer="21"/>
-<wire x1="17.526" y1="1.905" x2="17.526" y2="0.762" width="0.1524" layer="21"/>
-<pad name="2" x="-2.54" y="3.81" drill="1.3208" shape="long"/>
-<pad name="1" x="-2.54" y="-3.683" drill="1.3208" shape="long"/>
-<pad name="P" x="17.4498" y="3.81" drill="1.3208" shape="long"/>
-<pad name="O" x="13.97" y="-3.683" drill="1.3208" shape="long"/>
-<pad name="S" x="20.955" y="-3.683" drill="1.3208" shape="long"/>
-<text x="26.6446" y="-6.2992" size="1.778" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="3.81" y="-5.08" size="1.778" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="G2R" urn="urn:adsk.eagle:package:24323/1" type="box" library_version="1">
-<description>RELAY
-1 x switch, Omron</description>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="K" urn="urn:adsk.eagle:symbol:23941/1" library_version="1">
-<wire x1="-3.81" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="0" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
-<text x="1.27" y="2.921" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.27" y="5.08" size="1.778" layer="95">&gt;PART</text>
-<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-</symbol>
-<symbol name="U" urn="urn:adsk.eagle:symbol:23944/1" library_version="1">
-<wire x1="3.175" y1="5.08" x2="1.905" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-3.175" y1="5.08" x2="-1.905" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="2.54" y2="5.715" width="0.254" layer="94"/>
-<wire x1="0" y1="1.27" x2="0" y2="0" width="0.254" layer="94"/>
-<circle x="0" y="1.27" radius="0.127" width="0.4064" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="95">&gt;PART</text>
-<pin name="O" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="S" x="-5.08" y="5.08" visible="pad" length="short" direction="pas"/>
-<pin name="P" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="G2R" urn="urn:adsk.eagle:component:24612/1" prefix="K" library_version="1">
-<description>&lt;b&gt;RELAY&lt;/b&gt;&lt;p&gt;
-1 x switch, Omron</description>
-<gates>
-<gate name="1" symbol="K" x="0" y="0" addlevel="must"/>
-<gate name="2" symbol="U" x="17.78" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="G2R">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-<connect gate="2" pin="O" pad="O"/>
-<connect gate="2" pin="P" pad="P"/>
-<connect gate="2" pin="S" pad="S"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24323/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="1569185" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="diode" urn="urn:adsk.eagle:library:210">
 <description>&lt;b&gt;Diodes&lt;/b&gt;&lt;p&gt;
 Based on the following sources:
@@ -23971,6 +23853,87 @@ Block, Siemens and generic&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="relay">
+<description>&lt;b&gt;Relays&lt;/b&gt;&lt;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Eichhoff
+&lt;li&gt;Finder
+&lt;li&gt;Fujitsu
+&lt;li&gt;HAMLIN
+&lt;li&gt;OMRON
+&lt;li&gt;Matsushita
+&lt;li&gt;NAiS
+&lt;li&gt;Siemens
+&lt;li&gt;Schrack
+&lt;/ul&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="G5Q-1A" urn="urn:adsk.eagle:footprint:24243/1" locally_modified="yes">
+<description>&lt;b&gt;Compact Single-pole Relay for Switching 10 A&lt;/b&gt;&lt;p&gt;
+Source: http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5q.pdf</description>
+<wire x1="-11.25" y1="4.9" x2="8.7" y2="4.9" width="0.2032" layer="21"/>
+<wire x1="8.7" y1="4.9" x2="8.7" y2="-4.9" width="0.2032" layer="21"/>
+<wire x1="8.7" y1="-4.9" x2="-11.25" y2="-4.9" width="0.2032" layer="21"/>
+<wire x1="-11.25" y1="-4.9" x2="-11.25" y2="4.9" width="0.2032" layer="21"/>
+<pad name="1" x="7.62" y="3.81" drill="1.3" diameter="1.9304" rot="R180"/>
+<pad name="2" x="-2.54" y="3.81" drill="1.3" diameter="2.1844" rot="R180"/>
+<pad name="3" x="-10.16" y="3.81" drill="1.3" diameter="2.1844" rot="R180"/>
+<pad name="5" x="7.62" y="-3.81" drill="1.3" diameter="1.9304" rot="R180"/>
+<text x="-6.35" y="0" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="7.975" y1="-2.525" x2="8.325" y2="2.55" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="K" urn="urn:adsk.eagle:symbol:23941/1">
+<wire x1="-3.81" y1="-1.905" x2="-1.905" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.905" x2="1.905" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.905" x2="3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="0" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="1.905" y2="1.905" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.905" x2="0" y2="1.905" width="0.254" layer="94"/>
+<text x="1.27" y="2.921" size="1.778" layer="96">&gt;VALUE</text>
+<text x="1.27" y="5.08" size="1.778" layer="95">&gt;PART</text>
+<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="S" urn="urn:adsk.eagle:symbol:23960/1">
+<wire x1="0" y1="3.175" x2="0" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.175" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.905" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<circle x="0" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="95" rot="R90">&gt;PART</text>
+<pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="S" x="0" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="G5Q-1A">
+<gates>
+<gate name="G$1" symbol="K" x="0" y="-10.16" addlevel="must"/>
+<gate name="G$2" symbol="S" x="0" y="15.24" addlevel="must"/>
+</gates>
+<devices>
+<device name="" package="G5Q-1A">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="5"/>
+<connect gate="G$2" pin="P" pad="2"/>
+<connect gate="G$2" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -23984,13 +23947,10 @@ Block, Siemens and generic&lt;p&gt;
 <part name="U$1" library="smarthome" deviceset="SMARTBRICK" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="220u"/>
 <part name="X1" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="53?-04" device="047"/>
-<part name="X3" library="degson" deviceset="DG3XX-03" device="-3.5"/>
-<part name="X4" library="degson" deviceset="DG3XX-02" device="-3.5"/>
-<part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="G2R" device="" package3d_urn="urn:adsk.eagle:package:24323/1"/>
+<part name="X4" library="degson" deviceset="DG3XX-03" device="-3.5"/>
+<part name="X5" library="degson" deviceset="DG3XX-02" device="-3.5"/>
 <part name="Q1" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:29752/1"/>
 <part name="F2" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="FUSE" device="TE5" package3d_urn="urn:adsk.eagle:package:14069/1"/>
-<part name="R1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R1206" package3d_urn="urn:adsk.eagle:package:26062/1" value="10K"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="0.1u"/>
 <part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SUPPRESSOR-" device="SMBJ" package3d_urn="urn:adsk.eagle:package:43442/2" value="SMBJ15A"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-7" package3d_urn="urn:adsk.eagle:package:23345/1" value="68u"/>
 <part name="L1" library="smarthome" deviceset="LQH43" device="" value="4.7u"/>
@@ -24006,12 +23966,17 @@ Block, Siemens and generic&lt;p&gt;
 <part name="R9" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:26059/1" value="5K"/>
 <part name="U$2" library="smarthome" deviceset="NA01/02-T2SXX" device=""/>
 <part name="F3" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="FUSE" device="TE5" package3d_urn="urn:adsk.eagle:package:14069/1"/>
-<part name="R10" library="varistor" library_urn="urn:adsk.eagle:library:410" deviceset="S10K385" device="" package3d_urn="urn:adsk.eagle:package:30553/1"/>
+<part name="R3" library="varistor" library_urn="urn:adsk.eagle:library:410" deviceset="S10K385" device="" package3d_urn="urn:adsk.eagle:package:30553/1"/>
 <part name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="FUSE" device="TE5" package3d_urn="urn:adsk.eagle:package:14069/1"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="4.7K"/>
-<part name="X5" library="degson" deviceset="DG3XX-02" device="5.0"/>
-<part name="X6" library="degson" deviceset="DG3XX-02" device="5.0"/>
+<part name="X2" library="degson" deviceset="DG3XX-02" device="5.0"/>
+<part name="X3" library="degson" deviceset="DG3XX-02" device="5.0"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="SOD123" package3d_urn="urn:adsk.eagle:package:43420/1"/>
+<part name="K1" library="relay" deviceset="G5Q-1A" device=""/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10u"/>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SUPPRESSOR-" device="SMBJ" package3d_urn="urn:adsk.eagle:package:43442/2"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1u"/>
+<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10K"/>
 </parts>
 <sheets>
 <sheet>
@@ -24024,7 +23989,7 @@ Block, Siemens and generic&lt;p&gt;
 <text x="-60.96" y="30.48" size="1.778" layer="91">L</text>
 <text x="-53.34" y="30.48" size="1.778" layer="91">N</text>
 <text x="-15.24" y="30.48" size="1.778" layer="91">N</text>
-<text x="-7.62" y="30.48" size="1.778" layer="91">L_OUT</text>
+<text x="2.54" y="30.48" size="1.778" layer="91">L_OUT</text>
 <text x="22.86" y="-101.6" size="1.778" layer="91">GND</text>
 <text x="38.1" y="-101.6" size="1.778" layer="91">R</text>
 <text x="50.8" y="-101.6" size="1.778" layer="91">G</text>
@@ -24037,17 +24002,13 @@ Block, Siemens and generic&lt;p&gt;
 <instance part="X1" gate="-2" x="40.64" y="-91.44" rot="R270"/>
 <instance part="X1" gate="-3" x="53.34" y="-91.44" rot="R270"/>
 <instance part="X1" gate="-4" x="66.04" y="-91.44" rot="R270"/>
-<instance part="X3" gate="-1" x="45.72" y="17.78" rot="R90"/>
-<instance part="X3" gate="-2" x="25.4" y="17.78" rot="R90"/>
-<instance part="X3" gate="-3" x="35.56" y="17.78" rot="R90"/>
-<instance part="X4" gate="-1" x="53.34" y="17.78" rot="R90"/>
-<instance part="X4" gate="-2" x="58.42" y="17.78" rot="R90"/>
-<instance part="K1" gate="1" x="-5.08" y="-22.86" rot="R90"/>
-<instance part="K1" gate="2" x="-2.54" y="-7.62" rot="R90"/>
+<instance part="X4" gate="-1" x="45.72" y="17.78" rot="R90"/>
+<instance part="X4" gate="-2" x="25.4" y="17.78" rot="R90"/>
+<instance part="X4" gate="-3" x="35.56" y="17.78" rot="R90"/>
+<instance part="X5" gate="-1" x="53.34" y="17.78" rot="R90"/>
+<instance part="X5" gate="-2" x="58.42" y="17.78" rot="R90"/>
 <instance part="Q1" gate="G$1" x="7.62" y="-35.56" rot="MR0"/>
-<instance part="F2" gate="G$1" x="7.62" y="10.16" rot="R90"/>
-<instance part="R1" gate="G$1" x="83.82" y="-33.02" rot="R90"/>
-<instance part="C3" gate="G$1" x="73.66" y="-12.7"/>
+<instance part="F2" gate="G$1" x="-17.78" y="10.16" rot="R180"/>
 <instance part="D2" gate="G$1" x="-14.478" y="-51.816"/>
 <instance part="C4" gate="G$1" x="-22.86" y="-50.8"/>
 <instance part="L1" gate="G$1" x="-35.56" y="-45.72"/>
@@ -24063,14 +24024,20 @@ Block, Siemens and generic&lt;p&gt;
 <instance part="R9" gate="G$1" x="66.04" y="-50.8" rot="R90"/>
 <instance part="U$2" gate="G$1" x="-25.4" y="-17.78" rot="R270"/>
 <instance part="F3" gate="G$1" x="-53.34" y="-10.16" rot="R90"/>
-<instance part="R10" gate="G$1" x="-53.34" y="0" rot="R90"/>
+<instance part="R3" gate="G$1" x="-53.34" y="0" rot="R90"/>
 <instance part="F1" gate="G$1" x="-60.96" y="-2.54" rot="R90"/>
 <instance part="R2" gate="G$1" x="30.48" y="5.08"/>
-<instance part="X5" gate="-1" x="-53.34" y="20.32" rot="R90"/>
-<instance part="X5" gate="-2" x="-60.96" y="20.32" rot="R90"/>
-<instance part="X6" gate="-1" x="-7.62" y="20.32" rot="R90"/>
-<instance part="X6" gate="-2" x="-12.7" y="20.32" rot="R90"/>
-<instance part="D1" gate="G$1" x="-2.54" y="-30.48" rot="R180"/>
+<instance part="X2" gate="-1" x="-53.34" y="20.32" rot="R90"/>
+<instance part="X2" gate="-2" x="-60.96" y="20.32" rot="R90"/>
+<instance part="X3" gate="-1" x="2.54" y="20.32" rot="R90"/>
+<instance part="X3" gate="-2" x="-12.7" y="20.32" rot="R90"/>
+<instance part="D1" gate="G$1" x="-7.62" y="-25.4" rot="R180"/>
+<instance part="K1" gate="G$1" x="-2.54" y="-12.7" rot="R270"/>
+<instance part="K1" gate="G$2" x="-2.54" y="-2.54" rot="R270"/>
+<instance part="C5" gate="G$1" x="-4.826" y="-43.434" rot="R90"/>
+<instance part="D3" gate="G$1" x="0" y="-25.4" rot="R270"/>
+<instance part="C3" gate="G$1" x="73.66" y="-12.7"/>
+<instance part="R1" gate="G$1" x="83.82" y="-33.02" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -24087,24 +24054,23 @@ Block, Siemens and generic&lt;p&gt;
 <junction x="-53.34" y="7.62"/>
 <pinref part="U$2" gate="G$1" pin="N"/>
 <junction x="-28.54" y="-12"/>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-53.34" y1="15.24" x2="-53.34" y2="17.78" width="0.1524" layer="91"/>
 <junction x="-53.34" y="15.24"/>
 <wire x1="-12.7" y1="17.78" x2="-12.7" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="X5" gate="-1" pin="KL"/>
-<pinref part="X6" gate="-2" pin="KL"/>
+<pinref part="X2" gate="-1" pin="KL"/>
+<pinref part="X3" gate="-2" pin="KL"/>
 </segment>
 </net>
 <net name="L" class="0">
 <segment>
 <wire x1="-60.96" y1="17.78" x2="-60.96" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="0" y1="10.16" x2="-60.96" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="K1" gate="2" pin="P"/>
-<wire x1="0" y1="10.16" x2="0" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="10.16" x2="-60.96" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="10.16" x2="-60.96" y2="2.54" width="0.1524" layer="91"/>
 <junction x="-60.96" y="10.16"/>
 <pinref part="F1" gate="G$1" pin="2"/>
-<pinref part="X5" gate="-2" pin="KL"/>
+<pinref part="X2" gate="-2" pin="KL"/>
+<pinref part="F2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -24115,14 +24081,12 @@ Block, Siemens and generic&lt;p&gt;
 <wire x1="76.2" y1="-45.72" x2="76.2" y2="-17.78" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="5-12V"/>
 <wire x1="76.2" y1="-17.78" x2="73.66" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-17.78" x2="58.42" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<junction x="73.66" y="-17.78"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <junction x="53.34" y="-45.72"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <junction x="66.04" y="-45.72"/>
+<wire x1="73.66" y1="-17.78" x2="58.42" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-45.72" x2="-14.478" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="40.64" y="-45.72"/>
 <pinref part="D2" gate="G$1" pin="C"/>
@@ -24134,13 +24098,19 @@ Block, Siemens and generic&lt;p&gt;
 <wire x1="-22.86" y1="-45.72" x2="-30.48" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="-48.26" x2="-22.86" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="-22.86" y="-45.72"/>
-<pinref part="K1" gate="1" pin="1"/>
-<wire x1="-14.478" y1="-22.86" x2="-10.16" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-14.478" y1="-45.72" x2="-14.478" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-14.478" y1="-45.72" x2="-14.478" y2="-43.434" width="0.1524" layer="91"/>
+<wire x1="-14.478" y1="-43.434" x2="-14.478" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="K1" gate="G$1" pin="2"/>
+<wire x1="-14.478" y1="-25.4" x2="-14.478" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="-14.478" y1="-12.7" x2="-7.62" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="+"/>
+<wire x1="-7.366" y1="-43.434" x2="-14.478" y2="-43.434" width="0.1524" layer="91"/>
+<junction x="-14.478" y="-43.434"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="-14.478" y1="-30.48" x2="-14.478" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="-30.48" x2="-14.478" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="-14.478" y="-30.48"/>
+<wire x1="-10.16" y1="-25.4" x2="-14.478" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="-14.478" y="-25.4"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<junction x="73.66" y="-17.78"/>
 </segment>
 </net>
 <net name="RELAY" class="0">
@@ -24153,13 +24123,13 @@ Block, Siemens and generic&lt;p&gt;
 </net>
 <net name="NTC" class="0">
 <segment>
-<pinref part="X4" gate="-2" pin="KL"/>
+<pinref part="X5" gate="-2" pin="KL"/>
 <wire x1="58.42" y1="15.24" x2="58.42" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="5.08" x2="83.82" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="5.08" x2="83.82" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="A0"/>
 <wire x1="83.82" y1="-27.94" x2="58.42" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <junction x="83.82" y="-27.94"/>
 </segment>
 </net>
@@ -24167,9 +24137,9 @@ Block, Siemens and generic&lt;p&gt;
 <segment>
 <pinref part="U$1" gate="G$1" pin="3.3V"/>
 <wire x1="58.42" y1="-20.32" x2="53.34" y2="-20.32" width="0.1524" layer="91"/>
-<pinref part="X4" gate="-1" pin="KL"/>
+<pinref part="X5" gate="-1" pin="KL"/>
 <wire x1="53.34" y1="-20.32" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="X3" gate="-3" pin="KL"/>
+<pinref part="X4" gate="-3" pin="KL"/>
 <wire x1="35.56" y1="15.24" x2="53.34" y2="15.24" width="0.1524" layer="91"/>
 <junction x="53.34" y="15.24"/>
 <junction x="35.56" y="15.24"/>
@@ -24271,14 +24241,14 @@ Block, Siemens and generic&lt;p&gt;
 <wire x1="-14.478" y1="-54.356" x2="-14.478" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="-14.478" y="-58.42"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="7.62" y1="-58.42" x2="7.62" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-58.42" x2="7.62" y2="-43.434" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-43.434" x2="7.62" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="-58.42" x2="-14.478" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="7.62" y="-58.42"/>
 <wire x1="27.94" y1="-58.42" x2="7.62" y2="-58.42" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-1" pin="S"/>
 <wire x1="27.94" y1="-88.9" x2="27.94" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="1"/>
-<pinref part="X3" gate="-1" pin="KL"/>
+<pinref part="X4" gate="-1" pin="KL"/>
 <wire x1="45.72" y1="-15.24" x2="45.72" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="10.16" x2="45.72" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -24287,10 +24257,8 @@ Block, Siemens and generic&lt;p&gt;
 <wire x1="58.42" y1="-15.24" x2="68.58" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-15.24" x2="68.58" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-10.16" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="73.66" y="-10.16"/>
 <wire x1="73.66" y1="-10.16" x2="78.74" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="-38.1" x2="78.74" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="-38.1" x2="78.74" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="78.74" y="-38.1"/>
 <wire x1="78.74" y1="-58.42" x2="78.74" y2="-38.1" width="0.1524" layer="91"/>
@@ -24307,6 +24275,12 @@ Block, Siemens and generic&lt;p&gt;
 <wire x1="-50.8" y1="-26.46" x2="-50.8" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="-50.8" y1="-58.42" x2="-40.64" y2="-58.42" width="0.1524" layer="91"/>
 <junction x="-40.64" y="-58.42"/>
+<pinref part="C5" gate="G$1" pin="-"/>
+<wire x1="0.254" y1="-43.434" x2="7.62" y2="-43.434" width="0.1524" layer="91"/>
+<junction x="7.62" y="-43.434"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<junction x="73.66" y="-10.16"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -24319,7 +24293,7 @@ Block, Siemens and generic&lt;p&gt;
 </net>
 <net name="DATA" class="0">
 <segment>
-<pinref part="X3" gate="-2" pin="KL"/>
+<pinref part="X4" gate="-2" pin="KL"/>
 <wire x1="25.4" y1="15.24" x2="25.4" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="D9"/>
 <wire x1="25.4" y1="5.08" x2="25.4" y2="0" width="0.1524" layer="91"/>
@@ -24333,12 +24307,13 @@ Block, Siemens and generic&lt;p&gt;
 <net name="N$4" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
-<pinref part="K1" gate="1" pin="2"/>
-<wire x1="0" y1="-22.86" x2="7.62" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-30.48" x2="7.62" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="0" y1="-30.48" x2="7.62" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="7.62" y="-30.48"/>
+<wire x1="7.62" y1="-30.48" x2="7.62" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="K1" gate="G$1" pin="1"/>
+<wire x1="7.62" y1="-25.4" x2="7.62" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="-12.7" x2="7.62" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="2.54" y1="-25.4" x2="7.62" y2="-25.4" width="0.1524" layer="91"/>
+<junction x="7.62" y="-25.4"/>
 </segment>
 </net>
 <net name="PS_L" class="0">
@@ -24354,38 +24329,44 @@ Block, Siemens and generic&lt;p&gt;
 <pinref part="F1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="WF_L" class="0">
+<net name="N$2" class="0">
 <segment>
-<pinref part="F2" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-7.62" y1="15.24" x2="-7.62" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="X6" gate="-1" pin="KL"/>
+<pinref part="F3" gate="G$1" pin="2"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<wire x1="-7.62" y1="10.16" x2="-12.7" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="F2" gate="G$1" pin="1"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="10.16" width="0.1524" layer="91"/>
+<pinref part="K1" gate="G$2" pin="P"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="K1" gate="G$2" pin="S"/>
+<pinref part="X3" gate="-1" pin="KL"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="-5.08" y1="-25.4" x2="-2.54" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="+"/>
-<pinref part="L1" gate="G$1" pin="P$1"/>
 <wire x1="-40.64" y1="-45.72" x2="-40.64" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="L1" gate="G$1" pin="P$1"/>
 <wire x1="-35.56" y1="-45.72" x2="-40.64" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="U$2" gate="G$1" pin="V+"/>
-<wire x1="-40.64" y1="-45.72" x2="-40.64" y2="-28.96" width="0.1524" layer="91"/>
-<wire x1="-40.64" y1="-28.96" x2="-28.48" y2="-28.96" width="0.1524" layer="91"/>
+<wire x1="-28.48" y1="-28.96" x2="-40.64" y2="-28.96" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="-28.96" x2="-40.64" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="-40.64" y="-45.72"/>
-</segment>
-</net>
-<net name="RELAY_OUT" class="0">
-<segment>
-<pinref part="K1" gate="2" pin="S"/>
-<pinref part="F2" gate="G$1" pin="1"/>
-<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="-12.7" x2="7.62" y2="5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="F3" gate="G$1" pin="2"/>
-<pinref part="R10" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
